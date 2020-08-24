@@ -7878,6 +7878,7 @@ a.toc-link {
     cursor: pointer
 }
 
+
 .insert-image-tips:hover {
     color: orange;
     border: 1px solid orange
@@ -7919,11 +7920,28 @@ a.toc-link {
     cursor: pointer
 }
 
+
 .top-feature-row {
     width: 100%;
     height: auto;
+    font-family: 'Noto Serif SC';/*这边用原来字体主要是怕聚焦图错位*/
     margin-top: 55px
 }
+/*移动端字体*/
+.chinese-font {
+    font-family: hanyi, 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif
+}
+/*PC端字体*/
+.serif {
+    font-family: hanyi, 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', source-han-serif-sc, 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif
+}
+/*移动端字体*/
+@media (max-width:860px) {
+    .serif {
+        font-family: hanyi, 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif
+    }
+}
+
 
 .top-feature-v2 {
     display: inline-block
@@ -8900,5 +8918,17 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
 .post-list-thumb:hover:after {
 	height: 100%;
 }
+
+@font-face {
+    font-family: "hanyi";
+    src: url("https://cdn.jsdelivr.net/gh/xiaoheizhu1/wp/wp-content/themes/Sakura/fonts/汉仪清雅体简.eot"); /* IE9 */
+    src: url("https://cdn.jsdelivr.net/gh/xiaoheizhu1/wp/wp-content/themes/Sakura/fonts/汉仪清雅体简.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */  
+    url("https://cdn.jsdelivr.net/gh/xiaoheizhu1/wp/wp-content/themes/Sakura/fonts/汉仪清雅体简.woff") format("woff"), /* chrome、firefox */
+    url("https://cdn.jsdelivr.net/gh/xiaoheizhu1/wp/wp-content/themes/Sakura/fonts/汉仪清雅体简.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("https://cdn.jsdelivr.net/gh/xiaoheizhu1/wp/wp-content/themes/Sakura/fonts/汉仪清雅体简.svg#zhanku") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
 
  
