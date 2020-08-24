@@ -7927,20 +7927,7 @@ a.toc-link {
     font-family: 'Noto Serif SC';/*这边用原来字体主要是怕聚焦图错位*/
     margin-top: 55px
 }
-/*移动端字体*/
-.chinese-font {
-    font-family: hanyi, 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif
-}
-/*PC端字体*/
-.serif {
-    font-family: hanyi, 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', source-han-serif-sc, 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif
-}
-/*移动端字体*/
-@media (max-width:860px) {
-    .serif {
-        font-family: hanyi, 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif
-    }
-}
+
 
 
 .top-feature-v2 {
@@ -8319,9 +8306,21 @@ td.hljs-ln-numbers {
     overflow: hidden
 }
 
+/*移动端字体*/
 .chinese-font {
-    font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif
+    font-family: hanyi, 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif
 }
+/*PC端字体*/
+.serif {
+    font-family: hanyi, 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', source-han-serif-sc, 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif
+}
+/*移动端字体*/
+@media (max-width:860px) {
+    .serif {
+        font-family: hanyi, 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif
+    }
+}
+
 
 .chinese-tranditional-font {
     font-family: Helvetica, Tahoma, Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif
@@ -8343,15 +8342,7 @@ td.hljs-ln-numbers {
     font-family: Ubuntu, sans-serif
 }
 
-.serif {
-    font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', source-han-serif-sc, 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia, serif
-}
 
-@media (max-width:860px) {
-    .serif {
-        font-family: 'Merriweather Sans', Helvetica, Tahoma, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei', sans-serif
-    }
-}
 
 .skin-menu {
     position: fixed;
