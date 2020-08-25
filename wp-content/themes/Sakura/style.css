@@ -3880,7 +3880,7 @@ li.feature-2 {
     }
     #video-container,
     .focusinfo {
-        display: none
+        /*display: none*/
     }
 }
 
@@ -8826,6 +8826,7 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
     color: orange;
 }
 
+/*波浪*/
 #banner_wave_1 {
     width: auto;
     height: 65px;
@@ -8910,6 +8911,7 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
 	height: 100%;
 }
 
+/*全站字体*/
 @font-face {
     font-family: "hanyi";
     src: url("https://cdn.jsdelivr.net/gh/xiaoheizhu1/wp/wp-content/themes/Sakura/fonts/汉仪清雅体简.eot"); /* IE9 */
@@ -8919,6 +8921,40 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
     url("https://cdn.jsdelivr.net/gh/xiaoheizhu1/wp/wp-content/themes/Sakura/fonts/汉仪清雅体简.svg#zhanku") format("svg"); /* iOS 4.1- */
     font-style: normal;
     font-weight: normal;
+}
+
+/*移动端美化样式*/
+@media (max-width:860px) {
+ 
+    /*cusinfo .header-tou img {
+    }移动端的头像样式自己改*/
+    .center-text {
+        /*移动端文字大小*/
+        font-size: 40px;
+    }
+ 
+    .focusinfo .header-info {
+        /*移动端首页一句话*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        background: none !important
+    }
+ 
+    .focusinfo .header-info .top-social_v2 {
+        /*移动端社交图标*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0px;
+    }
+ 
+    #centerbg {
+        /*移动端背景全屏*/
+        height: 100vh;
+    }
 }
 
 
