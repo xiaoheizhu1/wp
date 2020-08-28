@@ -8909,8 +8909,9 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
 	
 }
 
+
 /*标题横线动画*/
-.toppic-line  header.single-header {
+.toppic-line{
 	position:relative;
 	bottom:0;
 	left:0;
@@ -9074,12 +9075,7 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
     cursor: pointer;
     z-index: 5;
 }
-@media (max-width: 860px) {
-    .headertop-down {
-        display: none
-    }
-}
- 
+
 .headertop-down i {
     font-size: 28px;
     color: #fff;
