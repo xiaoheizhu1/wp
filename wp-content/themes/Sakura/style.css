@@ -8913,57 +8913,6 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
         
     }
 
-		/*波浪*/
-	#banner_wave_1 {
-		width: auto;
-		height: 65px;
-		background: url(https://cdn.jsdelivr.net/gh/xiaoheizhu1/imgHosting/PIC/wave1.png) repeat-x;
-		_filter: alpha(opacity=80);
-		position: absolute;
-		bottom: 0;
-		width: 2000%;
-		left: -236px;
-		z-index: 5;
-		opacity: 1;
-		transiton-property: opacity,bottom;
-		transition-duration: .4s,.4s;
-		animation-name: move2;
-		animation-duration: 240s;
-		animation-fill-mode: backwards;
-		animation-timing-function: linear;
-		animation-iteration-count: infinite;
-	}
-	#banner_wave_2 {
-		width: auto;
-		height: 80px;
-		background: url(https://cdn.jsdelivr.net/gh/xiaoheizhu1/imgHosting/PIC/wave2.png) repeat-x;
-		_filter: alpha(opacity=80);
-		position: absolute;
-		bottom: 0;
-		width: 2000%;
-		left: 0;
-		z-index: 4;
-		opacity: 1;
-		transiton-property: opacity,bottom;
-		transition-duration: .4s,.4s;
-		animation-name: move2;
-		animation-duration: 160s;
-		animation-fill-mode: backwards;
-		animation-timing-function: linear;
-		animation-iteration-count: infinite;
-	}
-
-	@keyframes move1 {
-	  100%{
-		background-position: 100% 0;
-	  }
-	}
-
-	@keyframes move2 {
-	  100%{
-		background-position: -100% 0;
-	  }
-	}
 }
 
 
@@ -9075,7 +9024,7 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
     transiton-property: opacity,bottom;
     transition-duration: .4s,.4s;
     animation-name: move2;
-    animation-duration: 240s;
+    animation-duration: 40s;
     animation-fill-mode: backwards;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -9094,7 +9043,7 @@ h1[id*=toc-head]::before,h2[id*=toc-head]::before,h3[id*=toc-head]::before,h4[id
     transiton-property: opacity,bottom;
     transition-duration: .4s,.4s;
     animation-name: move2;
-    animation-duration: 160s;
+    animation-duration: 27s;
     animation-fill-mode: backwards;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
